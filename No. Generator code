@@ -1,0 +1,10 @@
+import random
+
+randomList = []
+
+for i in range(0, 10):
+   
+    randomList.append(random.randint(1, 500))
+randomList.sort()
+print("Printing list of 10 random numbers")
+print(randomList)
